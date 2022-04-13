@@ -1,4 +1,4 @@
- create database Hospl_Management_system;
+ create database Hospital_Management_system;
 
 create table STAFF(Staff_ID varchar(10) Primary key,FName varchar(100) not null,LName varchar(100) not null,Designation varchar(30) not null,
 Department_ID varchar(10) not null, Gender char(1) default'M', BDate date, Contact int not null unique, Email varchar(100) not null,
